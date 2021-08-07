@@ -10,10 +10,38 @@ module.exports = {
       dropShadow: {
         "popcorn": "2px 2px 1px black",
       },
+      flex: {
+        "cards": "1 1 20%",
+      },
+      width: {
+        "movie-card": "24rem",
+      },
+      maxWidth: {
+        "movie-card": "24rem",
+      },
+      height: {
+        "movie-card": "22rem",
+      },
+      maxHeight: {
+        "movie-card": "22rem",
+      },
+      fontSize: {
+        "popcorn": "12rem",
+        "mega": "4rem",
+        "movie-title": "1.8rem",
+        "h1": "3rem",
+        "h2": "2.5rem",
+        "h3": "2rem",
+        "base": "1.6rem",
+      },
+      lineHeight: {
+        "popcorn": ".9",
+        "movie-title": ".7",
+      },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/line-clamp")],
 };

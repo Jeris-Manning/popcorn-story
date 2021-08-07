@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .bg-movie-red {
+    --tw-bg-opacity: 1;
+    background-color: rgba(201, 4, 2, var(--tw-bg-opacity));
+  }
+  .bg-movie-white {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 234, 234, var(--tw-bg-opacity));
+  }
+  .text-movie-red {
+    --tw-text-opacity: 1;
+    color: rgba(201, 4, 2, var(--tw-text-opacity));
+  }
+  .text-movie-white {
+    --tw-text-opacity: 1;
+    color: rgba(255, 234, 234, var(--tw-text-opacity));
+  }
+}
