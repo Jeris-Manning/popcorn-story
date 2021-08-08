@@ -1,3 +1,8 @@
+:root {
+  --popcorn-red: #C90402;
+  --popcorn-white: #FFEAEA;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

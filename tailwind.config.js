@@ -6,6 +6,8 @@ module.exports = {
       backgroundImage: (theme) => ({
         "popcorn-box":
           "url('D:/gitLocal/popcorn-story/src/images/popcornBox.png')",
+        "popcorn-stack":
+          "url('D:/gitLocal/popcorn-story/src/images/popcornStack.png')",
       }),
       dropShadow: {
         "popcorn": "2px 2px 1px black",
@@ -26,7 +28,7 @@ module.exports = {
         "movie-card": "22rem",
       },
       fontSize: {
-        "popcorn": "12rem",
+        "popcorn": "7rem",
         "mega": "4rem",
         "movie-title": "1.8rem",
         "h1": "3rem",
